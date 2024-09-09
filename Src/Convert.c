@@ -58,3 +58,8 @@ float Convert_Uint8ToFloat(uint8_t fistUint8, uint8_t secondUint8, uint8_t third
 {
 	return (float)((fourthUint8 << 24) | (thirdUint8 << 16) | (secondUint8 << 8) | (fistUint8));
 }
+
+float Convert_Uint16ToFloat(uint16_t fistUint16, uint16_t secondUint16)
+{
+	return (float)((secondUint16 << 16) | (fistUint16));
+}
