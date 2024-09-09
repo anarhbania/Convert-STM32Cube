@@ -21,5 +21,6 @@ uint16_t Convert_Uint8ToUint16(uint8_t fistUint8, uint8_t secondUint8);
 uint32_t Convert_Uint8ToUint32(uint8_t fistUint8, uint8_t secondUint8, uint8_t thirdUint8, uint8_t fourthUint8);
 uint32_t Convert_Uint16ToUint32(uint16_t fistUint16, uint16_t secondUint16);
 float Convert_Uint8ToFloat(uint8_t fistUint8, uint8_t secondUint8, uint8_t thirdUint8, uint8_t fourthUint8);
+float Convert_Uint16ToFloat(uint16_t fistUint16, uint16_t secondUint16);
 
 #endif /* CONVERT_H_ */
